@@ -3,7 +3,7 @@ import { Link } from 'expo-router'
 
 export default function Info() {
   return (
-   <View className="flex-1 bg-cream px-6 justify-center">
+    <View className="flex-1 bg-cream px-6 justify-center">
 
       {/* Title */}
       <Text className="text-4xl font-extrabold text-primary text-center tracking-widest">
@@ -18,18 +18,15 @@ export default function Info() {
 
         <Text className="text-lg text-primary mt-2">
           Leftover rice turns into dinner fast. Toss everything in a pan and call it done.
-            <ul>
-               Ingredients:
-            </ul>
-            <ul>
-                Instructions:
-            </ul>
         </Text>
-        <Link href="https://www.thefrenchcookingacademy.com/recipes/french-best-recipe-for-crepes"> Go to Recipe </Link>
+
+        <Text className="text-lg text-primary mt-2">
+          <Link href="https://www.thekitchn.com/fried-rice-recipe-23652991"> Go to Recipe </Link>
+        </Text>
       </View>
 
       {/* Card */}
-      <View className="bg-white rounded-2xl shadow-lg p-6 mt-8 border border-secondary/30">
+      <View className="bg-white rounded-2xl shadow-lg p-6 mt-8 border border-secondary">
         <Text className="text-2xl font-bold text-primary mb-4">
           Sheet Pan Chicken + Potatoes
         </Text>
@@ -37,30 +34,26 @@ export default function Info() {
         <View className="space-y-3">
           <Text className="text-lg text-primary">
             A chicken rice bowl is a reliable balanced meal with carbs, protein, and vegetables. It works well for meal prep and easy reheating.
-             <ul>
-               Ingredients:
-            </ul>
-            <ul>
-                Instructions:
-            </ul>
+          </Text>
+
+          <Text className="text-lg text-primary mt-2">
+            <Link href="https://www.saltandlavender.com/sheet-pan-baked-chicken-and-potatoes-recipe/"> Go to Recipe </Link>
           </Text>
         </View>
       </View>
       {/*Card */}
-      <View className="bg-white rounded-2xl shadow-lg p-6 mt-8 border border-secondary/30">
+      <View className="bg-white rounded-2xl shadow-lg p-6 mt-8 border border-secondary">
         <Text className="text-2xl font-bold text-primary mb-4">
-         Baked Ziti
+          Baked Ziti
         </Text>
 
         <View className="space-y-3">
           <Text className="text-lg text-primary">
-           Boil pasta, mix with jar sauce and cheese, bake. It’s minimal effort but feels like real dinner.
-            <ul>
-               Ingredients:
-            </ul>
-            <ul>
-                Instructions:
-            </ul>
+            Boil pasta, mix with jar sauce and cheese, bake. It’s minimal effort but feels like real dinner.
+          </Text>
+
+          <Text className="text-lg text-primary mt-2">
+            <Link href="https://www.allrecipes.com/recipe/18031/baked-ziti-ii/"> Go to Recipe </Link>
           </Text>
         </View>
       </View>

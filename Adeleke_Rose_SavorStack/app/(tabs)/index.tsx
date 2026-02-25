@@ -11,13 +11,11 @@ export default function Index() {
         Welcome to Savor Stack!
       </Text>
 
-      <Text className="text-lg text-secondary text-center mt-3 italic py-8">
+      <Text className="text-3xl text-secondary text-center mt-3 italic py-8">
         From Pantry to plate, Savor Stack offers a personalized recipes based off your current pantry ingredients!
       </Text>
-      <Text className="align-middle md:align-top text-center text-2xl font-extrabold"> 
-        <Link href="/breakfast" > View Breakfast Recipes | </Link>
-        <Link href="/lunch" > View Lunch Recipes |</Link>
-        <Link href="/dinner"> View Dinner Recipes |</Link>
+
+      <Text className=" text-secondary align-middle md:align-top text-center text-2xl  py-6"> 
         <Link href="/recipe"> Create Your Own Recipe</Link>
       </Text>
     </View>
