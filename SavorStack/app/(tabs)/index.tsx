@@ -7,11 +7,11 @@ export default function Index() {
     <View className="flex-1 bg-cream px-6 justify-center">
 
       {/* Title */}
-      <Text className="text-5xl font-extrabold text-primary text-center tracking-widest">
+      <Text className="text-5xl font-extrabold text-primary text-center ">
         Welcome to Savor Stack!
       </Text>
 
-      <Text className="text-lg text-secondary text-center mt-3 italic">
+      <Text className="text-lg text-secondary text-center mt-3 italic py-8">
         From Pantry to plate, Savor Stack offers a personalized recipes based off your current pantry ingredients!
       </Text>
       <Text className="align-middle md:align-top text-center text-2xl font-extrabold"> 

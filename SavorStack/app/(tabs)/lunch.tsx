@@ -1,5 +1,4 @@
-import { View, Text, ScrollView, Pressable } from "react-native";
-// import{ router } from "expo-router";
+import { View, Text } from "react-native";
 import { Link } from 'expo-router'
 
 export default function Info() {
