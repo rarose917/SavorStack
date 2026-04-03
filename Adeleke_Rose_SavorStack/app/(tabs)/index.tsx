@@ -18,6 +18,9 @@ export default function Index() {
       <Text className=" text-secondary align-middle md:align-top text-center text-2xl  py-6"> 
         <Link href="/recipe"> Create Your Own Recipe</Link>
       </Text>
+      <Text className=" text-secondary align-middle md:align-top text-center text-2xl  py-6"> 
+        <Link href="/recipesapi"> View Random Recipe</Link>
+      </Text>
     </View>
   );
 }

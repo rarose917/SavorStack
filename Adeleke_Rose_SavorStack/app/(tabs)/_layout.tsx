@@ -9,6 +9,7 @@ const _layout = () => {
         <Tabs.Screen name="breakfast" options={{ title: 'View Breakfast' }} />
         <Tabs.Screen name="lunch" options={{ title: 'View Lunch' }} />
         <Tabs.Screen name="dinner" options={{ title: 'View Dinner' }} />
+        <Tabs.Screen name="recipesapi" options={{ title: 'View Random Recipes' }} />
     </Tabs>
   )
 }

@@ -32,7 +32,7 @@ export default function Menu() {
             Egg + cheese on bread or an English muffin is filling and takes like 5 minutes. Add bacon or sausage if you want.
           </Text>
           <Text className="text-lg text-primary mt-2">
-            <Link href="https://pinchofyum.com/breakfast-sandwich> Go to Recipe"> Go to Recipe </Link>
+            <Link href="https://pinchofyum.com/breakfast-sandwich"> Go to Recipe </Link>
           </Text>
         </View>
       </View>
