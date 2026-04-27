@@ -1,6 +1,8 @@
 import { View, Text, Pressable } from "react-native";
+
 // import { router } from "expo-router";
 import { Link } from 'expo-router'
+
 
 export default function Index() {
   return (
